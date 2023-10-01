@@ -42,8 +42,5 @@
 ```
 Now, open your web browser and visit http://localhost:3000/.
 
-## Contributing
-We welcome contributions! Please see our Contributing Guide for more details.
-
 ## Contact
 Project Lead: gattacode
