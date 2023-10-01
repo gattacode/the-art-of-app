@@ -7,7 +7,7 @@ function Profile({ isArtwork, name, location, medium, website, shop, artworkLink
     const id = name.toLowerCase().replace(/\s+/g, '');
     
     const createLinksMap = () => {
-        const linksMap = artworkLinks.map((url, index) => (
+        const linksMap = artworkLinks?.map((url, index) => (
             <li key={index}><a href={url}><img src={url} alt=''></img></a></li>
         ));
         setLinks(linksMap);
@@ -16,7 +16,13 @@ function Profile({ isArtwork, name, location, medium, website, shop, artworkLink
     useEffect(() => {
         createLinksMap();
     }); 
-    
+
+    const cover = artworkLinks && artworkLinks.length > 0 ? (
+        <a href={artworkLinks[0]}>
+            <img src={artworkLinks[0]} alt='' />
+        </a>
+    ) : null;
+
     return {
         isArtwork,
         id,
@@ -25,7 +31,8 @@ function Profile({ isArtwork, name, location, medium, website, shop, artworkLink
         medium,
         website,
         shop,
-        links
+        links,
+        cover,
     };
 }
 
