@@ -1,7 +1,7 @@
 const Bio = ({ artistInfo }) => {
     
     return (    
-        <div>
+        <div className="artist-page">
             <h1>{artistInfo.name}</h1>
             <p>ID: {artistInfo.id}</p>
             <p>Location: {artistInfo.location}</p>

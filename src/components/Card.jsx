@@ -1,12 +1,14 @@
 const Card = ({ artistInfo }) => {
     
-    return (    
-        <div>
-            <ul>
+    return (
+        <div className="card">   
+        <a href={artistInfo.id}>
+            <ul className="cover">
                 {artistInfo.cover}
             </ul>
-            <h1>{artistInfo.name}</h1>
-        </div>
+            <p>{artistInfo.name}</p>
+        </a>
+        </div> 
     );
 }
 
