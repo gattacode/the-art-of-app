@@ -1,13 +1,12 @@
+import Redirect from "../assets/open_in_new.png";
+
 const LinkButton = ({ link, type }) => {
-    
-    return (
-        <div className="link-button">   
-        <a href={link}>
-            <p>{type}</p>
-        </a>
-        <img alt="redirect" className="icon"  />
-        </div> 
-    );
-}
+  return (
+    <a className="link-button" href={link}>
+      <strong>{type}</strong>
+      <img alt="redirect" className="icon" src={Redirect} />
+    </a>
+  );
+};
 
 export default LinkButton;
