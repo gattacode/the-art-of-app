@@ -8,7 +8,7 @@ function Profile({ isArtwork, name, location, medium, website, shop, artworkLink
     
     const createLinksMap = () => {
         const linksMap = artworkLinks?.map((url, index) => (
-            <li key={index}><a href={id}><img src={url} alt=''></img></a></li>
+            <li key={index}><a href={url} target='_blank' rel='norefferer'><img src={url} alt=''></img></a></li>
         ));
         setLinks(linksMap);
     };
