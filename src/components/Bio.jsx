@@ -1,6 +1,10 @@
 import LinkButton from "./LinkButton";
 
 const Bio = ({ artistInfo }) => {
+  if (!artistInfo) {
+    return <div>Artist not found :(</div>;
+  }
+
   return (
     <div className="artist-page">
       <div className="biography">
