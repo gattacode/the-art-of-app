@@ -5,7 +5,6 @@ const Bio = ({ artistInfo }) => {
     <div className="artist-page">
       <div className="biography">
         <h1>{artistInfo.name}</h1>
-        <p>ID: {artistInfo.id}</p>
         <p>Location: {artistInfo.location}</p>
         <p>Medium: {artistInfo.medium}</p>
         <LinkButton link={artistInfo.website} type="Website"></LinkButton>
