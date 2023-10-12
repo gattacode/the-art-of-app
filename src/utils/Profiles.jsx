@@ -80,12 +80,8 @@ function Profiles() {
       "https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1615598013445-HCP8CD2UT8IXLYWCN4H7/Art_of_Xi_Zhang_10.jpg?format=1000w",
       "https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1615597959788-E6DSSI77LK84RRSGH8X0/Art_of_Xi_Zhang_56.jpg?format=1000w",
       "https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1615597996217-0Z6R5URQYIKQO6K0ZBLC/Art_of_Xi_Zhang_66.jpg?format=1000w",
-      "https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1615597996217-0Z6R5URQYIKQO6K0ZBLC/Art_of_Xi_Zhang_66.jpg?format=1000w",
       "https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1615597408996-8K8W0247RHIOODCIWQUT/Art_of_Xi_Zhang_7.jpg?format=1000w",
-      "https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1615596118386-KQNOUQ0C6G1WDTR44W3Y/Art_of_Xi_Zhang_7.jpg?format=1000w",
       "https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1615597383182-F1EC8EOWM00YGAWQC7YC/Art_of_Xi_Zhang_3.jpg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1615597408996-8K8W0247RHIOODCIWQUT/Art_of_Xi_Zhang_7.jpg?format=1000w",
-      "https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1615597408996-8K8W0247RHIOODCIWQUT/Art_of_Xi_Zhang_7.jpg?format=1000w",
     ],
   });
 

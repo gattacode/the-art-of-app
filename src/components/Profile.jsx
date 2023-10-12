@@ -16,7 +16,7 @@ function Profile({ isArtwork, name, location, medium, website, shop, artworkLink
 
     useEffect(() => {
         createLinksMap();
-    }, [createLinksMap]); 
+    },[]); 
 
     const cover = artworkLinks && artworkLinks.length > 0 ? (
             <img className='cover-image' src={artworkLinks[0]} alt='cover' />

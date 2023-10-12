@@ -1,7 +1,7 @@
 import Bio from "../components/ArtworkBio";
 import Menu from "../components/Menu";
 import { useParams } from 'react-router-dom';
-import Profiles from '../utils/Profiles';
+import Profiles from '../utils/ArtworksList';
 
 const Artwork = () => {
   const { artistId } = useParams();
